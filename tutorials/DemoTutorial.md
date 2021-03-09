@@ -3,7 +3,7 @@ TheApronNetworkis a decentralized infrastructure based on the Web 3.0ecosystem, 
 
 Contract Repo: [https://github.com/Apron-Network/apron-contracts](https://github.com/Apron-Network/apron-contracts)   
 Contract Repo: [https://github.com/Apron-Network/apron-node](https://github.com/Apron-Network/apron-node)   
-Docker Repo: [https://drive.google.com/file/d/1509jfQpUawIdok7UYHr8WcY6_wB5YG8X/view?usp=sharing](https://drive.google.com/file/d/1509jfQpUawIdok7UYHr8WcY6_wB5YG8X/view?usp=sharing)
+Docker Image: [https://drive.google.com/file/d/1509jfQpUawIdok7UYHr8WcY6_wB5YG8X/view?usp=sharing](https://drive.google.com/file/d/1509jfQpUawIdok7UYHr8WcY6_wB5YG8X/view?usp=sharing)
 
 The demo contains apron node, apron gateway and contracts. The Apron Node is built with Substrate Framework with contracts and OCW enable. The Apron Gateway is buit with Golang, provides dedicated functions for the Apron Network to collect the usage of each service and put the statistics data on chain.
 
