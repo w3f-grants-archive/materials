@@ -17,9 +17,30 @@ Docker Image: [https://drive.google.com/file/d/1509jfQpUawIdok7UYHr8WcY6_wB5YG8X
 docker load < <the tarball>
 ```
 
+Then clone the Apron Node repo by run `git clone https://github.com/Apron-Network/apron-node.git`.
+
+And switch to the `script` folder.
+```
+cd apron-node/script
+docker-compose up
+```
+
+**OR**
+
+You can build docker image directly.
+```
+cd apron-node/script
+docker build -t apron-node
+```
+
+Then run
+```
+docker-compose up
+```
+
 ## Connect Apron Node
 
-Download and Compile **Polkadot JS Apps** code, followed by **yar start** to start. Access the front page http://localhost:3000/ to set IP and port.
+Download and Compile **Polkadot JS Apps** code, followed by **yar start** to start. Access the front page http://localhost:3001/ to set IP and port.
 
 ## Contract
 ### Services Market
@@ -52,7 +73,6 @@ All registered services can be queried through listService.
 Services Statistics records the availability and usage of a service over a period of time, and can submit the service usage provided by the service provider to a peer-to-peer contract. Note that only the service registrant using the same account can submit the service usage.
 
 ![](./demo-img/image-6.png)
-
 
 
 
