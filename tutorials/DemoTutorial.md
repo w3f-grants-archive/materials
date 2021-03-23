@@ -10,37 +10,61 @@ The demo contains apron node, apron gateway and contracts. The Apron Node is bui
 
 ## Docker
 
-We provide docker file to build docker image and docker compose file to run the demo.
-Docker Image: [https://drive.google.com/file/d/1509jfQpUawIdok7UYHr8WcY6_wB5YG8X/view?usp=sharing](https://drive.google.com/file/d/1509jfQpUawIdok7UYHr8WcY6_wB5YG8X/view?usp=sharing)
+You can use built image. We also provide docker file to build docker image from scratch and docker compose file to run the demo.
+
+### Use Built Image
+
+#### Download Docker Image
+Please download the latest from here:
+
+`https://drive.google.com/drive/folders/1W9X3BAYs9mU2VuBsnPd2axxRtPkXS9co?usp=sharing`
+
+#### Load Docker Image
 
 ```
-docker load < <the tarball>
+docker load < apron-node-2021xxxx.tar.gz
 ```
 
-Then clone the Apron Node repo by run `git clone https://github.com/Apron-Network/apron-node.git`.
+#### Download docker-compose Configuration 
+
+`https://github.com/Apron-Network/apron-node/blob/master/scripts/docker-compose.yml`
+
+#### Start Apron
+
+```
+docker-compose up -d
+```
+
+#### Connect Apron Node
+Polkadot JS Apps is integrated into Docker image. Access the frontend from here http://localhost:3001/.
+
+**OR**
+
+You can clone the Apron Node repo by run `git clone https://github.com/Apron-Network/apron-node.git`.
 
 And switch to the `script` folder.
 ```
 cd apron-node/script
-docker-compose up
+docker-compose up -d
 ```
 
-**OR**
+### Docker Image from scratch
 
+#### Build Docker Image
 You can build docker image directly.
 ```
 cd apron-node/script
-docker build -t apron-node
+docker build -t apron-node .
 ```
 
-Then run
+#### Start Apron
 ```
-docker-compose up
+docker-compose up -d
 ```
 
-## Connect Apron Node
+#### Connect Apron Node
+Polkadot JS Apps is integrated into Docker image. Access the frontend from here http://localhost:3001/.
 
-Download and Compile **Polkadot JS Apps** code, followed by **yar start** to start. Access the front page http://localhost:3001/ to set IP and port.
 
 ## Contract
 ### Services Market
