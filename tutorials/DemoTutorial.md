@@ -51,7 +51,7 @@ docker-compose up -d
 ### Docker Image from scratch
 
 #### Build Docker Image
-You can build docker image directly.
+You can build docker image directly. Please clone the Apron Node repo by run `git clone https://github.com/Apron-Network/apron-node.git`.
 ```
 cd apron-node/script
 docker build -t apron-node .
