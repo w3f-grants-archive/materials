@@ -22,9 +22,9 @@ Connecting the service providers and application developers through the blockcha
 
 [White paper](./docs/Whitepaper.pdf)
 
-[Tutorial of how to use Apron Network](./tutorials/usage.md)
+[Tutorial of how to use Apron Network](./tutorials/usage1-heco.md)
 
-[Tutorial of demo](https://github.com/Apron-Network/materials/blob/main/tutorials/DemoTutorial.md)
+[Tutorial of demo](./tutorials/DemoTutorial.md)
 
 [Graphics](./graphics)
 

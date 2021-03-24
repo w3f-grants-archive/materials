@@ -6,25 +6,25 @@ Here is a tutorial of how to use Apron Network with **Metamask** the wallet for 
 
 
 ### Step 1
-![](./img/home.png)
+![](./usage1-heco-img/home.png)
 Open [https://dashboard.apron.network](https://dashboard.apron.network) with explorer, and finsih registration with email.  
 
 ### Step 2
-![](./img/project-create.png)
+![](./usage1-heco-img/project-create.png)
 
 1. Click **Heco Icon** in the left panel.
 1. Click **CREATE NEW PROJECT** on the right corner.
 1. Input the your project name and click **CREATE**
 
 ### Step 3 
-![](./img/project-setting.png)
+![](./usage1-heco-img/project-setting.png)
 
 1. Click the project in your project list
 2. Find the **ENDPOINT** in the project details page
 3. Click the **copy** icon at the end of **https** entry point
 
 ### Step 4
-![](./img/metamask-setting.png)
+![](./usage1-heco-img/metamask-setting.png)
 
 1. Open your metamask
 2. Click the network drop list on the left of your account avatar
@@ -37,7 +37,7 @@ Open [https://dashboard.apron.network](https://dashboard.apron.network) with exp
 
 
 ### Step 5
-![](./img/metamask-switch.png)
+![](./usage1-heco-img/metamask-switch.png)
 
 1. Click the network drop list on the left of your account avatar
 2. Choose the network you add in **Step 4**
