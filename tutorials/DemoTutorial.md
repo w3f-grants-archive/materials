@@ -5,8 +5,9 @@ Contract Repo: [https://github.com/Apron-Network/apron-contracts](https://github
 Apron Node Repo: [https://github.com/Apron-Network/apron-node](https://github.com/Apron-Network/apron-node)   
 Apron Gateway Repo: [https://github.com/Apron-Network/apron_gateway](https://github.com/Apron-Network/apron_gateway)   
 Apron Deployer Repo: [https://github.com/Apron-Network/apron-deployer](https://github.com/Apron-Network/apron-deployer)  
+Apron Market Frontend: [https://github.com/Apron-Network/apron-marketplace-demo](https://github.com/Apron-Network/apron-marketplace-demo)
 
-The demo contains apron node, apron gateway and contracts. The Apron Node is built with Substrate Framework with contracts and OCW enable. The Apron Gateway is buit  from scratch with Golang, provides dedicated functions for the Apron Network to collect the usage of each service and put the statistics data on chain.
+The demo contains apron node, apron gateway, frontend and contracts. The Apron Node is built with Substrate Framework with contracts and OCW enable. The Apron Gateway is buit  from scratch with Golang, provides dedicated functions for the Apron Network to collect the usage of each service and put the statistics data on chain.
 
 ![](./demo-img/Demo-Structure.jpeg)
 
