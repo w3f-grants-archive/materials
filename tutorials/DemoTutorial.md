@@ -93,7 +93,7 @@ Services Statistics records the availability and usage of a service over a perio
 
 ### Deploy contracts with `apron-deployer`
 
-Get the `apron-deployer` from `git clone -r https://github.com/Apron-Network/apron-deployer.git`
+Get the `apron-deployer` from `git clone https://github.com/Apron-Network/apron-deployer.git`
 
 ```
 cd apron-deployer
@@ -136,7 +136,7 @@ yarn run start
 
 And you will able to open `localhost:3000` in Chrome/Firefox.
 
-The initial pages are empty, since there is no services avaiable yet. Please follow the reset of this tutorial to see the complete steps, or please check this demo video . [video file](https://raw.githubusercontent.com/Apron-Network/materials/main/tutorials/video/apron-demo.mov)
+The initial pages are empty, since there is no services avaiable yet. Please follow the rest of this tutorial to see the complete steps, or please check this demo video . [video file](https://raw.githubusercontent.com/Apron-Network/materials/main/tutorials/video/apron-demo.mov)
 
 The frontend will be like below:
 
