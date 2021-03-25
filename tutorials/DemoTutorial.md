@@ -159,7 +159,7 @@ My Statistics as Service User
 ## Demo
 The scripts to run a complete demo of Apron Network are included in `apron-deployer`.
 
-With all previous steps finished and the containers running, you can start the demo now.
+With all previous steps finished and the containers running, you can start the demo now. Please start the following demo scripts with three terminals.
 
 ```
 cd apron-deployer
@@ -176,7 +176,7 @@ cd apron-deployer
 python3 hackathon_demo.py
 ```
 
-Now, you can open the `Marketplace Front End` again, and click `+Add New` to add the service as you like. The default one is a `httpbin` integrated in our docker image.
+Now, you can open the `Marketplace Front End` again, and click `+Add New` to add the service as you like. 
 
 Here are some samples you can use directly
 ```
